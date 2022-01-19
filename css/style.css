@@ -90,13 +90,13 @@ header {
 }
 
 .p-btn:hover {
-    background: hsl(172, 67%, 45%);
+    background: hsl(185, 41%, 84%);
 }
 
 .c-box {
     font-family: 'Space Mono', monospace;
     background: hsl(189, 41%, 97%);
-    color: hsl(186, 14%, 43%);
+    color: hsl(183, 100%, 15%);
     width: 147px;
     border: none;
     border-radius: 5px;
@@ -111,10 +111,12 @@ header {
 .c-box::placeholder {
     font-family: 'Space Mono', monospace;
     text-align: center;
+
 }
 
-.c-box:focus {
-    outline-color: hsl(172, 67%, 45%);
+.c-box:focus{
+    outline: 2px solid hsl(172, 67%, 45%);
+
 }
 
 .reset {
@@ -127,8 +129,12 @@ header {
     border: none;
     font-weight: 700;
     font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
 }
 
+.reset:hover{
+    background:hsl(185, 41%, 84%) ;
+}
 /* btns */
 
 .ppl-container {
