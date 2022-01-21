@@ -1,97 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="css/reset.css">  
-  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Tip calculator app</title>
 
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      
+    }
+
+    .attribution a {
+      color: hsl(183, 100%, 15%);;
+    }
   </style>
 </head>
+
 <body>
-<main>
-  <header>
-<img class="logo" src="/images/logo.svg" alt="">
-  </header>
+  <main>
+    <header>
+      <img class="logo" src="/images/logo.svg" alt="">
+    </header>
 
-  <div class="wrapper">
+    <div class="wrapper">
 
- <div class="wrapper-w">
-<div class="bill-container">
-  <h1 class="bill">Bill</h1>
-  <div class="bill-input">
-    <div class="cash__icon">
-      <img src="/images/icon-dollar.svg" alt="">
+      <div class="wrapper-w">
+        <div class="bill-container">
+          <h1 class="bill">Bill</h1>
+          <div class="bill-input">
+            <div class="cash__icon">
+              <img src="/images/icon-dollar.svg" alt="">
+            </div>
+            <input class="input" type="text" placeholder="0">
+          </div>
+        </div>
+
+
+
+        <div class="tip-container">
+          <h2>Select tip %</h2>
+          <div class="btns">
+            <button id="b1" class="p-btn b1">5%</button>
+            <button id="b2" class="p-btn b2">10%</button>
+            <button id="b3" class="p-btn b3">15%</button>
+            <button id="b4" class="p-btn b4">25%</button>
+            <button id="b5" class="p-btn b5">50%</button>
+            <input id="custom" class="c-box i6" placeholder="Custom">
+          </div>
+        </div>
+
+
+        <div class="ppl-container">
+          <h2> Number of People</h2>
+          <p class="error">Can't be zero</p>
+          <div class="ppl-cont-info">
+            <div class="people-input">
+              <div class="cash__icon">
+                <img src="/images/icon-person.svg" alt="">
+              </div>
+              <input class="input" type="text" placeholder="0">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="result-container">
+        <div class="tip-amount">
+          <div class="p-p">
+            Tip Amount<br>
+            <span class="person">/person</span>
+          </div>
+          <div class="result-tap">$ <span class="total-ta">0.00</span></div>
+        </div>
+
+        <div class="totalp-p">
+          <div class="tp-p">
+            Total <br>
+            <span class="person">/person</span>
+          </div>
+          <div class="result-tpp">$ <spant class="total-pp">0.00</spant>
+          </div>
+        </div>
+
+        <button class="reset">Reset</button>
+      </div>
+
     </div>
-    <input class="input" type="text">
-  </div>
- </div>
-
-
-
-  <div class="tip-container">
-    <h2>Select tip %</h2>
- <div class="btns">
-  <button class="p-btn b1">5%</button>
-  <button class="p-btn b2">10%</button>
-  <button class="p-btn b3">15%</button>
-  <button class="p-btn b4">25%</button>
-  <button class="p-btn b5">50%</button>
-  <input class="c-box i6" placeholder="Custom">
- </div>
-  </div>
-
-
-<div class="ppl-container">
-  <h2> Number of People</h2>
- <div class="ppl-cont-info">
-  <div class="people-input">
-   <div class="cash__icon">
-     <img src="/images/icon-person.svg" alt="">
-   </div>
-   <input class="input" type="text">
- </div>
- </div>
-</div>
- </div>
-
-  <div class="result-container">
-  <div class="tip-amount">
-    <div class="p-p">
-      Tip Amount<br>
-      <span class="person">/ person</span>
-    </div>
-    <div class="result-tap">$ <span class="total-ta">0.00</span></div>
-  </div>
-
- <div class="totalp-p">
-   <div class="tp-p">
-    Total <br>
-   <span class="person">/ person</span>
-   </div>
-   <div class="result-tpp">$ <spant class="total-pp">0.00</spant></div>
- </div>
-
- <button class="reset">Reset</button>
-  </div>
-  
-  </div>
-</main>
+  </main>
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Erick "efs0" code</a>.
   </footer>
   <script src="/js/app.js"></script>
 </body>
+
 </html>
