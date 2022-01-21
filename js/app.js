@@ -20,7 +20,6 @@ cBox.addEventListener('click', () => {
 })
 
 input[1].addEventListener('click', () => {
-    // pplContInfo.classList.add('ppl-cont-info--active')
     billinput.classList.remove('bill-container--active')
     pplContInfo.classList.add('ppl-cont-info--active')
 })
