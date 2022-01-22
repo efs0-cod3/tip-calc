@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL here](https://your-solution-url.com)
+- Solution URL: [URL here](https://github.com/efs0-cod3/tip-calc)
 - Live Site URL: [Live site](https://efs0-cod3.github.io/tip-calc/)
 
 ## My process
