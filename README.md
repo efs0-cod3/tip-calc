@@ -17,6 +17,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Overview
 
+<img src="https://github.com/efs0-cod3/tip-calc/blob/main/images/splitter.gif"/>
 ### The challenge
 
 Users should be able to:
